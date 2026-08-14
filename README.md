@@ -65,5 +65,5 @@ assert raw == open("image.png", "rb").read()
 
 ---
 
-全项目 vibe code
+全项目 vibe cod  
 侵删
