@@ -1,4 +1,4 @@
-# Phira 资源编解码器（phira-res-codec）
+# Phira 资源编解码&编码器（phira-res-codec）
 
 一个极简的 Python 脚本，实现 Phira（开源音游）内置资源文件的**加密与解密**。
 
@@ -38,7 +38,7 @@ pip install zstandard
 python3 phira_codec.py encrypt 输入文件  输出文件
 python3 phira_codec.py encrypt 输入目录  输出目录
 
-# 解密：把 Phira 资源还原为原始文件
+# 解密：把资源加密为原始文件
 python3 phira_codec.py decrypt 输入文件  输出文件
 python3 phira_codec.py decrypt 输入目录  输出目录
 ```
@@ -66,3 +66,4 @@ assert raw == open("image.png", "rb").read()
 ---
 
 全项目 vibe code
+侵删
